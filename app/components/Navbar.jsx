@@ -194,7 +194,7 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <Link href="/#contact">
+                <Link href="/contact">
                   <div
                     onClick={() => setNav(!nav)}
                     className="rounded-full shadow-lg text-yellow-500 shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
@@ -202,7 +202,7 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href="/resume">
+                <Link href="/portfolio">
                   <div
                     onClick={() => setNav(!nav)}
                     className="rounded-full shadow-lg text-yellow-500 shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
