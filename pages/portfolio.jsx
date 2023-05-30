@@ -1,4 +1,3 @@
-//../assets/img/portfolio/portfolio-1.jpg
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";

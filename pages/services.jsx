@@ -1,5 +1,5 @@
 import React from "react";
-import Cta from "../components/Cta";
+import Cta from "@/components/Cta";
 
 function Services() {
   return (

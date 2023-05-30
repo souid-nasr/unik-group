@@ -130,7 +130,7 @@ const Navbar = () => {
           </div>
           <div className="py-3 flex flex-col">
             <ul className="uppercase text-yellow-400">
-              <Link href="/">
+              <Link  href="/">
                 <li
                   onClick={() => setNav(false)}
                   className="py-2  text-sm text-yellow-400"
@@ -138,7 +138,7 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link href="/about">
+              <Link  href="/about">
                 <li
                   onClick={() => setNav(false)}
                   className="py-2 text-yellow-400 text-sm"
@@ -146,7 +146,7 @@ const Navbar = () => {
                   About
                 </li>
               </Link>
-              <Link href="/services">
+              <Link  href="/services">
                 <li
                   onClick={() => setNav(false)}
                   className="py-2 text-yellow-400 text-sm"
@@ -154,7 +154,7 @@ const Navbar = () => {
                   Services
                 </li>
               </Link>
-              <Link href="/portfolio">
+              <Link  href="/portfolio">
                 <li
                   onClick={() => setNav(false)}
                   className="py-2 text-yellow-400 text-sm"
@@ -162,7 +162,7 @@ const Navbar = () => {
                   Portfolio
                 </li>
               </Link>
-              <Link href="/contact">
+              <Link  href="/contact">
                 <li
                   onClick={() => setNav(false)}
                   className="py-2 text-yellow-400 text-sm"
@@ -194,7 +194,7 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <Link href="/contact">
+                <Link  href="/contact">
                   <div
                     onClick={() => setNav(!nav)}
                     className="rounded-full shadow-lg text-yellow-500 shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
@@ -202,7 +202,7 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href="/portfolio">
+                <Link  href="/portfolio">
                   <div
                     onClick={() => setNav(!nav)}
                     className="rounded-full shadow-lg text-yellow-500 shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
